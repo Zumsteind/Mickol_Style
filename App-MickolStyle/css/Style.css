@@ -1,0 +1,161 @@
+
+
+
+body {
+    
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+nav {
+
+color: #aea04b;
+font-size: 20px;
+
+}
+
+
+.custom-link {
+    color: #aea04b; /* Cambia este valor por el color que desees */
+    text-decoration: none;/* elimina subrayado */
+}
+
+.custom-link:hover {
+    color: #c4e738; /* Opcional: color al pasar el ratón */
+}
+
+h1 {
+    color:#aea04b;
+
+
+}
+
+h4 {
+    color:#aea04b;
+
+
+}
+
+footer {
+
+    background-color: black;
+}
+
+footer h5 {
+
+    color: #aea04b;
+
+
+}
+
+footer p {
+
+    color: #837a44;
+
+}
+
+
+#Parrofo1-Home {
+
+    color: black;
+
+
+}
+
+
+/* BOTONES */
+.boton {
+    background-color: #808000;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 150px;
+    text-align: center;
+    border: none;
+}
+
+
+.linea-con-texto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.linea-con-texto::before,
+.linea-con-texto::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.linea-con-texto:not(:empty)::before {
+    margin-right: .25em;
+}
+
+
+.linea-con-texto:not(:empty)::after {
+    margin-left: .25em;
+}
+
+#divCarritoCompra {
+    border: 1px solid #808000; /* 1px de grosor, estilo sólido, color #808000 (olive) */
+    width: 300px; /* Cambia este valor por el ancho que desees */
+    height: 200px; /* Cambia este valor por el alto que desees */
+}
+
+
+/* Aplicamos Flex al header */
+
+.Menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+   align-items: center;
+}
+
+.LogoHeader {
+    
+    align-items: flex-start;
+    margin: 0px;
+    
+    
+}
+
+.Nav-Menu {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contenedor_iconos_Header {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: end;
+}
+.Iconos-Header1 {
+    margin-right: 12px;
+    padding: 0px;
+    align-items: end;
+ 
+}
+.Iconos-Header2 {
+    margin: 1px;
+    margin-right: 5px;
+    padding: 0px;
+    align-items: end;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #808000;
+   
+}
+
