@@ -1,4 +1,8 @@
+* {
+margin: 0px;
+padding: 0px;
 
+}
 
 
 body {
@@ -26,20 +30,20 @@ font-size: 20px;
 }
 
 h1 {
-    color:#aea04b;
+    color:#aea04b !important;
 
 
 }
 
 h4 {
-    color:#aea04b;
-
+    color:#aea04b !important;
+ 
 
 }
 
 footer {
 
-    background-color: black;
+    background-color: black !important;
 }
 
 footer h5 {
@@ -74,9 +78,25 @@ footer p {
     text-decoration: none;
     font-weight: bold;
     border-radius: 1rem;
-    width: 150px;
+    width: 100px;
     text-align: center;
     border: none;
+}
+
+.btn-primary {
+    background-color: #808000 !important;
+   
+    color: #ffffff !important;
+    padding: 1rem 1rem !important;
+    margin-top: 1rem !important;
+    font-size: 1rem !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    border-radius: 1rem !important;
+    width: 150px !important;
+    text-align: center !important;
+    border: none !important;
+
 }
 
 
@@ -131,7 +151,16 @@ footer p {
 .Nav-Menu {
     flex-wrap: wrap;
     align-items: center;
+
 }
+
+.Nav-Menu a{
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25px;
+  
+}
+
 
 .contenedor_iconos_Header {
 
@@ -147,15 +176,17 @@ justify-content: end;
 }
 .Iconos-Header2 {
     margin: 1px;
-    margin-right: 5px;
+    margin-right: 15px;
     padding: 0px;
     align-items: end;
    
 }
 
 a {
-    text-decoration: none;
-    color: #808000;
+    text-decoration: none !important;
+    color: #808000 !important;
    
 }
+
+
 
