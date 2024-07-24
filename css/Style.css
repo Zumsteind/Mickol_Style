@@ -5,6 +5,10 @@ padding: 0px;
 }
 
 
+
+
+
+
 body {
     
     font-family:'Times New Roman', Times, serif;
@@ -42,6 +46,11 @@ h4 {
 }
 
 footer {
+
+    background-color: black !important;
+}
+
+header {
 
     background-color: black !important;
 }
@@ -145,7 +154,22 @@ footer p {
     align-items: flex-start;
     margin: 0px;
     
+
     
+}
+
+.logo-header {
+
+    width: 200px !important;
+    height: 180px ;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+.imagen-principal-main {
+
+    width: 100px;
 }
 
 .Nav-Menu {
@@ -157,7 +181,7 @@ footer p {
 .Nav-Menu a{
     flex-wrap: wrap;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 40px;
   
 }
 
