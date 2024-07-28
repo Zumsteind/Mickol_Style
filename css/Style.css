@@ -182,11 +182,7 @@ footer p {
         max-height: 30px;
     }
 }
-@media (max-width: 576px) {
-    .product-image {
-        height: 150px;
-    }
-}
+
 
 .imagen-principal-main {
 
@@ -289,4 +285,12 @@ header {
     width: 200%;
     height: 400px; /* Ajusta esta altura según tus necesidades */
     object-fit: cover;
+}
+
+/* Acomoda Imagen Paara Vista en celular, de los productos que vendemos */
+@media (max-width: 576px) {
+    .product-image {
+        height: 150px;
+        width: 200px;
+    }
 }
