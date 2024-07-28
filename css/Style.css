@@ -290,7 +290,7 @@ header {
 /* Acomoda Imagen Paara Vista en celular, de los productos que vendemos */
 @media (max-width: 576px) {
     .product-image {
-        height: 400px;
-        width: 500px;
+        height: 350px;
+       
     }
 }
