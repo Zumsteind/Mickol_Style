@@ -263,6 +263,8 @@ header {
 @media (max-width: 767.98px) {
     footer #Imagen-footer-logo {
         text-align: center; /* Centra la imagen en pantallas pequeñas */
+        width: 90px !important;
+        height: 70px !important;
     }
 }
 
