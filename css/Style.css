@@ -170,11 +170,22 @@ footer p {
 
 .logo-header {
 
-    width: 200px !important;
+    width: 200px ;
     height: 180px ;
     padding: 0px;
     margin: 0px;
     border-radius: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-custom .navbar-brand img {
+        max-height: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .product-image {
+        height: 150px;
+    }
 }
 
 .imagen-principal-main {
@@ -263,8 +274,7 @@ header {
 @media (max-width: 767.98px) {
     footer #Imagen-footer-logo {
         text-align: center; /* Centra la imagen en pantallas pequeñas */
-        width: 90px !important;
-        height: 70px !important;
+       
     }
 }
 
