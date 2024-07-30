@@ -57,7 +57,8 @@ h4 {
 footer {
 
     background-color: black !important;
-
+    align-items:center !important;
+    justify-items: center !important;
 }
 
 
@@ -73,6 +74,12 @@ footer h5 {
 footer p {
 
     color: #837a44;
+
+}
+
+footer img {
+
+    margin-right: 200px !important;
 
 }
 
@@ -293,4 +300,11 @@ header {
         height: 350px;
        
     }
+}
+
+section h3 {
+
+    color: #aea04b;
+    
+   display: none;
 }
