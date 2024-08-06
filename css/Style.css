@@ -1,310 +1,215 @@
-* {
-margin: 0px;
-padding: 0px;
-
+@charset "UTF-8";
+header {
+  background-color: black !important;
+  /* Aplicamos Flex al header */
 }
-
-
-
-
-
-
-body {
-
-    font-family:'Times New Roman', Times, serif;
-    color: black;
-    background-color: whitesmoke;
+header .Menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-
-nav {
-
-color: #aea04b;
-font-size: 20px;
-
+header .LogoHeader {
+  align-items: flex-start;
+  margin: 0px;
 }
-
-
-.custom-link {
-    color: #aea04b; /* Cambia este valor por el color que desees */
-    text-decoration: none;/* elimina subrayado */
+header .logo-header {
+  width: 200px;
+  height: 180px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50px;
 }
-
-.custom-link:hover {
-    color: #c4e738; /* Opcional: color al pasar el ratón */
+header nav {
+  color: #aea04b;
+  font-size: 20px;
 }
-
-h1 {
-    color:#aea04b !important;
-
-
+header .navbar-custom {
+  background-color: #000000; /* Cambia esto al color que desees */
 }
-
-h4 {
-    color:#aea04b !important;
-
-
+header .navbar-custom .navbar-nav .nav-link {
+  color: #fff; /* Asegúrate de que el texto sea visible */
 }
-
-
-
-
-
-
-
-
-
+header .navbar-custom .navbar-brand img {
+  max-height: 50px;
+}
+header .navbar-custom .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+header .navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+header .contenedor_iconos_Header .custom-link {
+  color: #fff;
+}
+header .navbar-custom .contenedor_iconos_Header {
+  display: flex;
+  align-items: center;
+}
+header .Nav-Menu {
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .Nav-Menu a {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 40px;
+}
+header .contenedor_iconos_Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+header .Iconos-Header1 {
+  margin-right: 12px;
+  padding: 0px;
+  align-items: end;
+}
+header .Iconos-Header2 {
+  margin: 1px;
+  margin-right: 15px;
+  padding: 0px;
+  align-items: end;
+}
 
 footer {
-
-    background-color: black !important;
-    align-items:center !important;
-    justify-items: center !important;
+  background-color: black !important;
+  align-items: center !important;
+  justify-items: center !important;
 }
-
-
-
-
 footer h5 {
-
-    color: #aea04b;
-
-
+  color: #aea04b;
 }
-
 footer p {
-
-    color: #837a44;
-
+  color: #837a44;
 }
-
 footer img {
-
-    margin-right: 200px !important;
-
+  margin-right: 200px !important;
+}
+footer .custom-link {
+  color: #aea04b; /* Cambia este valor por el color que desees */
+  text-decoration: none; /* elimina subrayado */
+}
+footer .custom-link:hover {
+  color: #c4e738; /* Opcional: color al pasar el ratón */
 }
 
-
+/* Esto es del index Temporada invierno */
 #Parrofo1-Home {
-
-    color: black;
-
-
+  color: black;
 }
 
+.imagen-principal-main {
+  width: 100px;
+}
+
+section {
+  /* Clases para imagenes carruseles */
+}
+section h3 {
+  color: #aea04b;
+  display: none;
+}
+section #divCarritoCompra {
+  border: 1px solid #808000; /* 1px de grosor, estilo sólido, color #808000 (olive) */
+  width: 300px; /* Cambia este valor por el ancho que desees */
+  height: 200px; /* Cambia este valor por el alto que desees */
+}
+section .product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .product-image {
+  width: 200%;
+  height: 400px; /* Ajusta esta altura según tus necesidades */
+  object-fit: cover;
+}
 
 /* BOTONES */
 .boton {
-    background-color: #808000;
-    color: #ffffff;
-    padding: 1rem 1rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 1rem;
-    width: 100px;
-    text-align: center;
-    border: none;
+  background-color: #808000;
+  color: #ffffff;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  width: 100px;
+  text-align: center;
+  border: none;
 }
 
 .btn-primary {
-    background-color: #808000 !important;
-
-    color: #ffffff !important;
-    padding: 1rem 1rem !important;
-    margin-top: 1rem !important;
-    font-size: 1rem !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    border-radius: 1rem !important;
-    width: 150px !important;
-    text-align: center !important;
-    border: none !important;
-
+  background-color: #808000 !important;
+  color: #ffffff !important;
+  padding: 1rem 1rem !important;
+  margin-top: 1rem !important;
+  font-size: 1rem !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  border-radius: 1rem !important;
+  width: 150px !important;
+  text-align: center !important;
+  border: none !important;
 }
 
-
-
-
-.linea-con-texto {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 20px 0;
-}
-
-.linea-con-texto::before,
-.linea-con-texto::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #000;
-}
-
-.linea-con-texto:not(:empty)::before {
-    margin-right: .25em;
-}
-
-
-.linea-con-texto:not(:empty)::after {
-    margin-left: .25em;
-}
-
-#divCarritoCompra {
-    border: 1px solid #808000; /* 1px de grosor, estilo sólido, color #808000 (olive) */
-    width: 300px; /* Cambia este valor por el ancho que desees */
-    height: 200px; /* Cambia este valor por el alto que desees */
-}
-
-
-/* Aplicamos Flex al header */
-
-.Menu {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between ;
-   align-items: center;
-}
-
-.LogoHeader {
-
-    align-items: flex-start;
-    margin: 0px;
-
-
-
-}
-
-.logo-header {
-
-    width: 200px ;
-    height: 180px ;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 50px;
-}
-
+/* footer */
 @media (max-width: 767.98px) {
-    .navbar-custom .navbar-brand img {
-        max-height: 30px;
-    }
+  footer #Imagen-footer-logo {
+    text-align: center; /* Centra la imagen en pantallas pequeñas */
+  }
+  .navbar-custom .navbar-brand img {
+    max-height: 30px;
+  }
+}
+/* Acomoda Imagen Paara Vista en celular, de los productos que vendemos */
+@media (max-width: 576px) {
+  .product-image {
+    height: 350px;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-
-.imagen-principal-main {
-
-    width: 100px;
+h1 {
+  color: #aea04b !important;
 }
 
-.Nav-Menu {
-    flex-wrap: wrap;
-    align-items: center;
-
-}
-
-.Nav-Menu a{
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 40px;
-
-}
-
-
-.contenedor_iconos_Header {
-
-display: flex;
-flex-wrap: wrap;
-justify-content: end;
-}
-.Iconos-Header1 {
-    margin-right: 12px;
-    padding: 0px;
-    align-items: end;
-
-}
-.Iconos-Header2 {
-    margin: 1px;
-    margin-right: 15px;
-    padding: 0px;
-    align-items: end;
-
+h4 {
+  color: #aea04b !important;
 }
 
 a {
-    text-decoration: none !important;
-    color: #808000 !important;
-
+  text-decoration: none !important;
+  color: #808000 !important;
 }
 
-
-/* esto es del header */
-
-
-header {
-
-    background-color: black !important;
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: whitesmoke;
+}
+body .linea-con-texto {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+body .linea-con-texto::before,
+body .linea-con-texto::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+body .linea-con-texto:not(:empty)::before {
+  margin-right: 0.25em;
+}
+body .linea-con-texto:not(:empty)::after {
+  margin-left: 0.25em;
 }
 
-.navbar-custom {
-    background-color: #000000; /* Cambia esto al color que desees */
-}
-.navbar-custom .navbar-nav .nav-link {
-    color: #fff; /* Asegúrate de que el texto sea visible */
-}
-.navbar-custom .navbar-brand img {
-    max-height: 50px;
-}
-.navbar-custom .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0.1);
-}
-.navbar-custom .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-.contenedor_iconos_Header .custom-link {
-    color: #fff;
-}
-
-.navbar-custom .contenedor_iconos_Header {
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-/* footer */
-
-@media (max-width: 767.98px) {
-    footer #Imagen-footer-logo {
-        text-align: center; /* Centra la imagen en pantallas pequeñas */
-       
-    }
-}
-
-
-  /* Clases para imagenes carruseles */
-.product-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.product-image {
-    width: 200%;
-    height: 400px; /* Ajusta esta altura según tus necesidades */
-    object-fit: cover;
-}
-
-/* Acomoda Imagen Paara Vista en celular, de los productos que vendemos */
-@media (max-width: 576px) {
-    .product-image {
-        height: 350px;
-       
-    }
-}
-
-section h3 {
-
-    color: #aea04b;
-    
-   display: none;
-}
+/*# sourceMappingURL=style.css.map */

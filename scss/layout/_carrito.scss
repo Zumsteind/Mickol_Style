@@ -1,0 +1,40 @@
+
+
+
+section  {
+
+    h3{
+        color: #aea04b;
+    
+        display: none;
+
+    }
+
+        #divCarritoCompra {
+            border: 1px solid #808000; /* 1px de grosor, estilo sólido, color #808000 (olive) */
+            width: 300px; /* Cambia este valor por el ancho que desees */
+            height: 200px; /* Cambia este valor por el alto que desees */
+        }
+        
+
+    /* Clases para imagenes carruseles */
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-image {
+        width: 200%;
+        height: 400px; /* Ajusta esta altura según tus necesidades */
+        object-fit: cover;
+    }
+
+    
+
+}
+
+
+
+ 
+        
+

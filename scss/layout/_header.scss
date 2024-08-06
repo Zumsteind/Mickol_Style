@@ -1,0 +1,153 @@
+header{
+
+    background-color: black !important;
+
+
+    
+    /* Aplicamos Flex al header */
+    
+    .Menu {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between ;
+       align-items: center;
+    }
+    
+    .LogoHeader {
+    
+        align-items: flex-start;
+        margin: 0px;
+    
+    
+    
+    }
+    
+    .logo-header {
+    
+        width: 200px ;
+        height: 180px ;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 50px;
+    }
+
+
+
+
+
+    nav {
+    
+        color: #aea04b;
+        font-size: 20px;
+        
+    }
+
+
+       
+    
+          
+       
+        
+        .navbar-custom {
+            background-color: #000000; /* Cambia esto al color que desees */
+        }
+        .navbar-custom .navbar-nav .nav-link {
+            color: #fff; /* Asegúrate de que el texto sea visible */
+        }
+        .navbar-custom .navbar-brand img {
+            max-height: 50px;
+        }
+        .navbar-custom .navbar-toggler {
+            border-color: rgba(0, 0, 0, 0.1);
+        }
+        .navbar-custom .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        .contenedor_iconos_Header .custom-link {
+            color: #fff;
+        }
+        
+        .navbar-custom .contenedor_iconos_Header {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .Nav-Menu {
+            flex-wrap: wrap;
+            align-items: center;
+        
+        }
+        
+        .Nav-Menu a{
+            flex-wrap: wrap;
+            align-items: center;
+            margin-left: 40px;
+        
+        }
+        
+        
+        .contenedor_iconos_Header {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        }
+        .Iconos-Header1 {
+            margin-right: 12px;
+            padding: 0px;
+            align-items: end;
+        
+        }
+        .Iconos-Header2 {
+            margin: 1px;
+            margin-right: 15px;
+            padding: 0px;
+            align-items: end;
+        
+        }
+
+
+
+
+}
+
+
+footer {
+    
+    background-color: black !important;
+    align-items:center !important;
+    justify-items: center !important;
+
+
+    h5 {
+    
+        color: #aea04b;
+    
+    }
+    
+    p{
+    
+        color: #837a44;
+    }
+    
+    img {
+    
+        margin-right: 200px !important;
+    }
+
+
+    .custom-link {
+        color: #aea04b; /* Cambia este valor por el color que desees */
+        text-decoration: none;/* elimina subrayado */
+    }
+    
+    .custom-link:hover {
+        color: #c4e738; /* Opcional: color al pasar el ratón */
+    }
+    
+
+
+
+}
