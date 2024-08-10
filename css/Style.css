@@ -21,11 +21,11 @@ header .logo-header {
   border-radius: 50px;
 }
 header nav {
-  color: #aea04b;
+  color: #808000;
   font-size: 20px;
 }
 header .navbar-custom {
-  background-color: #000000; /* Cambia esto al color que desees */
+  background-color: black; /* Cambia esto al color que desees */
 }
 header .navbar-custom .navbar-nav .nav-link {
   color: #fff; /* Asegúrate de que el texto sea visible */
@@ -77,21 +77,22 @@ footer {
   align-items: center !important;
   justify-items: center !important;
 }
-footer h5 {
-  color: #aea04b;
+footer div div h5 {
+  color: #808000;
 }
-footer p {
-  color: #837a44;
+footer div div p {
+  color: #808000;
 }
-footer img {
+footer div div img {
   margin-right: 200px !important;
 }
-footer .custom-link {
-  color: #aea04b; /* Cambia este valor por el color que desees */
+footer div div .custom-link {
+  color: #808000;
   text-decoration: none; /* elimina subrayado */
+  transition: 1s;
 }
-footer .custom-link:hover {
-  color: #c4e738; /* Opcional: color al pasar el ratón */
+footer div div .custom-link:hover {
+  color: #c0ee09; /* Opcional: color al pasar el ratón */
 }
 
 /* Esto es del index Temporada invierno */
@@ -101,6 +102,23 @@ footer .custom-link:hover {
 
 .imagen-principal-main {
   width: 100px;
+}
+
+.imagen-principal-contacto {
+  width: 500px !important;
+}
+
+.Bordes-contenedor {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 25px;
+}
+
+.Icono-Diamante {
+  transition: 2s;
+}
+.Icono-Diamante:hover {
+  transform: rotate(360 deg);
 }
 
 section {
@@ -127,23 +145,9 @@ section .product-image {
 }
 
 /* BOTONES */
-.boton {
-  background-color: #808000;
-  color: #ffffff;
-  padding: 1rem 1rem;
-  margin-top: 1rem;
-  font-size: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 1rem;
-  width: 100px;
-  text-align: center;
-  border: none;
-}
-
 .btn-primary {
-  background-color: #808000 !important;
-  color: #ffffff !important;
+  background-image: linear-gradient(to top, #484e1e, #808000);
+  color: #f1f1f1 !important;
   padding: 1rem 1rem !important;
   margin-top: 1rem !important;
   font-size: 1rem !important;
@@ -153,6 +157,9 @@ section .product-image {
   width: 150px !important;
   text-align: center !important;
   border: none !important;
+  box-shadow: 12px 12px 20px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 12px 12px 20px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 12px 12px 20px 5px rgba(0, 0, 0, 0.6);
 }
 
 /* footer */
@@ -173,14 +180,19 @@ section .product-image {
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: #aea04b !important;
+  color: #808000 !important;
 }
 
 h4 {
-  color: #aea04b !important;
+  color: #808000 !important;
+}
+
+h6 {
+  color: #808000 !important;
 }
 
 a {
@@ -211,5 +223,8 @@ body .linea-con-texto:not(:empty)::before {
 body .linea-con-texto:not(:empty)::after {
   margin-left: 0.25em;
 }
+body .Texto-Alcomienzo {
+  text-align: left !important;
+}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=Style.css.map */

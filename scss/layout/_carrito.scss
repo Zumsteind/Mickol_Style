@@ -1,5 +1,6 @@
 
-
+$color-borde : #808000;
+$color-titulo-section : #aea04b;
 
 section  {
 
@@ -11,7 +12,7 @@ section  {
     }
 
         #divCarritoCompra {
-            border: 1px solid #808000; /* 1px de grosor, estilo sólido, color #808000 (olive) */
+            border: 1px solid $color-borde; /* 1px de grosor, estilo sólido, color #808000 (olive) */
             width: 300px; /* Cambia este valor por el ancho que desees */
             height: 200px; /* Cambia este valor por el alto que desees */
         }

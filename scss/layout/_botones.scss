@@ -1,26 +1,14 @@
 
-
-
+$color-boton-carrito : #808000;
 
     /* BOTONES */
-    .boton {
-        background-color: #808000;
-        color: #ffffff;
-        padding: 1rem 1rem;
-        margin-top: 1rem;
-        font-size: 1rem;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 1rem;
-        width: 100px;
-        text-align: center;
-        border: none;
-    }
+
     
     .btn-primary {
-        background-color: #808000 !important;
-    
-        color: #ffffff !important;
+        
+        background-image: linear-gradient(to top,#484e1e, $color-boton-carrito,);
+        
+        color: #f1f1f1 !important;
         padding: 1rem 1rem !important;
         margin-top: 1rem !important;
         font-size: 1rem !important;
@@ -29,6 +17,12 @@
         border-radius: 1rem !important;
         width: 150px !important;
         text-align: center !important;
-        border: none !important;
-    
+        border: none!important;
+
+        box-shadow: 12px 12px 20px 5px rgba(0,0,0,0.6);
+-webkit-box-shadow: 12px 12px 20px 5px rgba(0,0,0,0.6);
+-moz-box-shadow: 12px 12px 20px 5px rgba(0,0,0,0.6);
     }
+
+
+ 

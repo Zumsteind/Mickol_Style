@@ -12,3 +12,28 @@
     
         width: 100px;
     }
+
+
+    .imagen-principal-contacto {
+    
+        width: 500px !important;
+    }
+
+    .Bordes-contenedor{
+
+        border: 1px solid black;
+        margin: 15px;
+        padding: 25px;
+
+    }
+
+    .Icono-Diamante{
+
+        transition: 2s;
+
+        &:hover{
+
+            transform: rotate(360 deg);
+
+        }
+    }

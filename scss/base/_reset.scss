@@ -1,24 +1,32 @@
+
+$color-letras : #808000;
+
 * {
     margin: 0px;
     padding: 0px;
-    
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     h1 {
-        color:#aea04b !important;
+        color:$color-letras !important;
     
     
     }
     
     h4 {
-        color:#aea04b !important;
+        color:$color-letras !important;
+    
+    
+    }
+    h6 {
+        color:$color-letras !important;
     
     
     }
 
     a {
         text-decoration: none !important;
-        color: #808000 !important;
+        color: $color-letras !important;
     
     }
     
@@ -57,6 +65,10 @@
             
             .linea-con-texto:not(:empty)::after {
                 margin-left: .25em;
+            }
+
+            .Texto-Alcomienzo {
+                text-align: left !important;
             }
 
     }
